@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0%;
+    height: 7%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+   
+      background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://noburestaurants.com/assets/article-media-files/Nobu-Santorini.jpg");
+      background-size: 100%;
+      font-size: 25px;
+      
+         
+}
+#menu {
+  background-image: url("https://img.freepik.com/premium-photo/black-stone-cooking-background-spices-vegetables-top-view-free-space-your-text_187166-3514.jpg?size=626&ext=jpg&ga=GA1.1.1554087649.1682320184&semt=ais");
+ background-size: 100%;
+ color:orange;
+ font-size: 20px;
+     
+}
+
+#contact {
+    background-color: skyblue;
+    text-align: left;
+    color:black;
+}
+#l{
+    text-align:left;
+    
+}
+
+
+ #d{ width: 250px;
+  height: 80px;
+  background-color: aquamarine;
+  position: relative;
+  animation-name: text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text {
+  0%   {background-color:pink; left:0px; top:0px;}
+  25%  {background-color:pink; left:300px; top:0px;}
+  
+}
+
+
+#div {
+  width: 300px;
+  height: 50px;
+  background-color:darkorchid;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+ 
+}
+
+@keyframes example {
+  from {background-color: aqua;}
+  to {background-color:lavenderblush;}
+}
